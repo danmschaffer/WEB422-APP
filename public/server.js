@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
-const userService = require("./user-service.js");
+const userService = require("../services/user-service.js");
 
 const HTTP_PORT = process.env.PORT || 8080;
 
